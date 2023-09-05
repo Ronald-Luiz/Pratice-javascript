@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios Javascript</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- menu -->
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Exercicios</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Este é o conteúdo principal da página
+        this is the main content of the page -->
+        <div>
+            <h1>Seja bem vindo, bora praticar o javascript!
+                Welcome, let's pratice javascript!
+            </h1>
+            <figure>
+                <img src="/assets/js.png" style="width: 100px;">
+            </figure>
+        </div>
+
+        <section>
+            <div>
+                <h2>01 - crie uma condição composta com uma variável dia e a condição verifica se está de dia mostre
+                    'claro'
+                    senão mostre está 'de noite'</h2>
+                <strong>
+                    <p>Código Javascript:</p>
+                    if (check === 'day') {
+                    alert('Claro')
+                    } else if (check === 'night') {
+                    alert('de noite')
+                    }
+                </strong>
+                <form class="funcionalidade">
+                    <p>resultado:</p>
+                    <label for="time">Where do you live is it day or night?</label>
+                    <select id="time" name="time">
+                        <option value="day">day</option>
+                        <option value="night">night</option>
+                    </select>
+                    <input id="submit" type="submit">
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>02 - Crie um loop for() que exiba apenas números pares até o 20 no console.log()</h2>
+                <strong>
+                    <p>Código javascript:</p>
+                    for (let i = 2; i <= 20; i +=2) { console.log(i) }</strong>
+            </div>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <button id="button1">Exibir os valores pares até 20!</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>03 - crie uma função que exiba uma mensagem no console</h2>
+            <strong>
+                <p>Código javascript:</p>
+                function show() {
+                console.log('Mensagem no console')
+                }
+                show();
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/03.PNG" alt="">
+                </figure>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>04 - crie uma função que receba o seu nome como (parâmetro) e exiba no console</h2>
+            <strong>
+                <p>Código javascript:</p>
+                function nome(nome) {
+                console.log(nome)
+                }
+                nome("Ronald")
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/04.PNG" alt="">
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>05 - crie uma função que receba nome, idade, e um estilo musical preferido (parâmetros) e exiba no
+                console</h2>
+        </section>
+
+        <section>
+            <h2>06 - crie uma função que receba um filme, uma música (parâmetros) e exiba no console</h2>
+        </section>
+
+        <section>
+            <h2>07 - crie uma função que retorne o triplo do número recebido no parâmetro da função</h2>
+        </section>
+
+        <section>
+            <h2>08 - crie uma função que verifique se uma variável é true ou false</h2>
+        </section>
+
+        <section>
+            <h2>09 - Crie um array que receba 5 itens e exiba no console.</h2>
+        </section>
+
+        <section>
+            <h2>10 - Utilize um método para adicionar um nome ao inicio do array.</h2>
+        </section>
+
+        <section>
+            <h2>11 - Utilize um método para remover o último nome do array.</h2>
+        </section>
+
+        <section>
+            <h2>12 - Utilize um método para adicionar dois nomes ao fim do array.</h2>
+        </section>
+
+        <section>
+            <h2>13 - Utilize um método para remover o primeiro nome do array.</h2>
+        </section>
+
+        <section>
+            <h2>14 - Utilize um método para organizar em ordem crescente o seguinte array:
+                let numbers = [7,5,6,3,8,9,2,1,4]</h2>
+        </section>
+
+        <section>
+            <h2>14 - Crie um objeto que receba ao menos três propriedades sobre você.</h2>
+        </section>
+
+        <section>
+            <h2>15 - Adicione uma nova propriedade sem alterar seu objeto inicial.</h2>
+        </section>
+
+        <section>
+            <h2>16 - Remova uma propriedade desse objeto.</h2>
+        </section>
+
+        <section>
+            <h2>17 - Mostre no console todas as propriedades desse objeto.</h2>
+        </section>
+
+        <section>
+            <h2>18 - Crie um array chamado "cadastro" contendo ao menos 5 objetos.
+                Cada objeto deve receber as seguintes propriedades: nome, idade, telefone, amigos.
+                Na propriedade amigos, adicione ao menos 4 amigos.</h2>
+        </section>
+
+        <section>
+            <h2>19 - Mostre no console o nome de um amigo de cada lista.</h2>
+        </section>
+
+    </main>
+    <!-- <footer>
+        <p>Copyright Ronald Luiz 2023</p>
+    </footer> -->
+    <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+li {
+    margin: 20px;
+    list-style: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+strong {
+    white-space: pre;
+    color: gray;
+}
+
+strong p {
+    color: red;
+}
+
+.funcionalidade {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form p {
+    color: red;
+}
+
+section {
+    border: 2px solid red;
+}
+
+section p {
+    color: red;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: 2px solid red;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
