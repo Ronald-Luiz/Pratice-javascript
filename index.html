@@ -107,69 +107,318 @@
         <section>
             <h2>05 - crie uma função que receba nome, idade, e um estilo musical preferido (parâmetros) e exiba no
                 console</h2>
+            <strong>
+                <p>Código javascript:</p>
+                function profile(nome, idade, estiloMusical) {
+                console.log(nome)
+                console.log(idade)
+                console.log(estiloMusical)
+                }
+
+                profile("Ronald", 29, "Rock");
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/05.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>06 - crie uma função que receba um filme, uma música (parâmetros) e exiba no console</h2>
+            <strong>
+                <p>Código javascript:</p>
+                function entertainment(filme, musica) {
+                console.log(filme)
+                console.log(musica)
+                }
+
+                entertainment("Spider-Man 2", "Linkin Park - In The End")
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/06.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>07 - crie uma função que retorne o triplo do número recebido no parâmetro da função</h2>
+            <strong>
+                <p>Código javascript:</p>
+                function TripleNumber(number) {
+                return number * 3
+                }
+
+                const resultado = TripleNumber(5);
+                console.log(resultado);
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/07.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>08 - crie uma função que verifique se uma variável é true ou false</h2>
+            <strong>
+                <p>Código javascript:</p>
+                function checkOut(variable) {
+                return variable === true;
+                }
+
+                let test = checkOut(true)
+
+                if (test === true) {
+                console.log("the variable is true")
+                } else {
+                console.log("the variable is false")
+                }
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/08.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>09 - Crie um array que receba 5 itens e exiba no console.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                let array = ["item1", "item2", "item3", "item4", "item5"]
+                console.log(array)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/09.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>10 - Utilize um método para adicionar um nome ao inicio do array.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                let array = ["item1", "item2", "item3", "item4", "item5"]
+                array.unshift("Javascript");
+                console.log(array)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/10.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>11 - Utilize um método para remover o último nome do array.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                let array = ["item1", "item2", "item3", "item4", "item5"]
+                array.pop();
+                console.log(array)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/11.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>12 - Utilize um método para adicionar dois nomes ao fim do array.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                let array = ["item1", "item2", "item3", "item4", "item5"]
+                array.push("item6", "item7")
+                console.log(array)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/12.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>13 - Utilize um método para remover o primeiro nome do array.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                let array = ["item1", "item2", "item3", "item4", "item5"]
+                array.shift();
+                console.log(array)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/13.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>14 - Utilize um método para organizar em ordem crescente o seguinte array:
                 let numbers = [7,5,6,3,8,9,2,1,4]</h2>
+            <strong>
+                <p>Código javascript:</p>
+                let numbers = [7, 5, 6, 3, 8, 9, 2, 1, 4]
+                numbers.sort();
+                console.log(numbers)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/14.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>14 - Crie um objeto que receba ao menos três propriedades sobre você.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                const myProfile = {
+                nome: "Ronald",
+                idade: 29,
+                ocupacao: "unemployed"
+                }
+                console.log(myProfile)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/15.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>15 - Adicione uma nova propriedade sem alterar seu objeto inicial.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                const myProfile = {
+                nome: "Ronald",
+                idade: 29,
+                ocupacao: "unemployed"
+                }
+                myProfile.origem = "Brazil"
+                console.log(myProfile)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/16.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>16 - Remova uma propriedade desse objeto.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                const myProfile = {
+                nome: "Ronald",
+                idade: 29,
+                ocupacao: "unemployed",
+                origem: "brazil"
+                }
+                delete myProfile.origem;
+                console.log(myProfile)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/17.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>17 - Mostre no console todas as propriedades desse objeto.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                const myProfile = {
+                nome: "Ronald",
+                idade: 29,
+                ocupacao: "unemployed",
+                origem: "brazil"
+                }
+                console.log(myProfile)
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/18.PNG">
+                </figure>
+            </div>
         </section>
 
         <section>
             <h2>18 - Crie um array chamado "cadastro" contendo ao menos 5 objetos.
                 Cada objeto deve receber as seguintes propriedades: nome, idade, telefone, amigos.
                 Na propriedade amigos, adicione ao menos 4 amigos.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                let cadastro = [
+                {
+                nome: "rafael",
+                idade: 20,
+                telefone: 123,
+                amigo: ["joão", "carlos", "ana", "thamyres"]
+                },
+                {
+                nome: "rafael",
+                idade: 20,
+                telefone: 123,
+                amigo: ["joão", "carlos", "ana", "thamyres"]
+                },
+                {
+                nome: "rafael",
+                idade: 20,
+                telefone: 123,
+                amigo: ["joão", "carlos", "ana", "thamyres"]
+                },
+                {
+                nome: "rafael",
+                idade: 20,
+                telefone: 123,
+                amigo: ["joão", "carlos", "ana", "thamyres"]
+                },
+                {
+                nome: "rafael",
+                idade: 20,
+                telefone: 123,
+                amigo: ["joão", "carlos", "ana", "thamyres", "thiago"]
+                }]
+            </strong>
         </section>
 
         <section>
             <h2>19 - Mostre no console o nome de um amigo de cada lista.</h2>
+            <strong>
+                <p>Código javascript:</p>
+                console.log(cadastro[0].amigo[0])
+                console.log(cadastro[1].amigo[1])
+                console.log(cadastro[2].amigo[2])
+                console.log(cadastro[3].amigo[3])
+                console.log(cadastro[4].amigo[4])
+            </strong>
+            <div class="funcionalidade">
+                <p>resultado:</p>
+                <figure>
+                    <img src="/assets/19.PNG">
+                </figure>
+            </div>
         </section>
 
     </main>
